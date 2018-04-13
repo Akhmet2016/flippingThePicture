@@ -1,0 +1,43 @@
+body {
+	background: linear-gradient(to left, #FFD46D, #51D4FF);
+}
+
+#coup {
+	text-align: center;
+}
+
+#coup img {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	border-radius: 35px;
+
+/*	-moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);*/
+}
+
+#coup input {
+	background: #444444;
+	border: none;
+	padding: 5px 15px;
+	font-size: 35px;
+	color: #78C8BE;
+	border-radius: 15px;
+	outline: none;
+}
+
+#coup input:hover {
+	color: #FFD46D;
+	border-radius: 25px;
+}
+
+#coup input:active {
+	color: #D32D2D;
+	border-radius: 15px;
+}
+
+.container {
+	margin: 5px 0;
+}
